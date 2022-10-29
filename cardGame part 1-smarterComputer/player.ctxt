@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=player
+comment1.params=name
+comment1.target=player(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ humanPlayer\r\n
+comment2.params=
+comment2.target=int\ computerChoice()
+comment2.text=\ This\ method\ is\ to\ have\ the\ computer\ choose\ a\ random\ card\ instead\ of\ the\ highest\ value\ card.\r\n\ public\ int\ computerChoice()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ int\ computerCard\ \=\ RANDOM.nextInt(\ max\ -\ min\ +\ 1\ )\ +\ min;\ //\ get\ random\ values\ 1\ -\ 10\r\n\ \ \ \ \ \ \ \ while(this.deck.removeCard(computerCard)\ \=\=\ false){\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ //\ after\ picking\ a\ random\ number,\ checks\ to\ see\ if\ that\ is\ in\ its\ deck\ and\ will\ repeat\ if\ the\ card\ is\ not\ there\r\n\ \ \ \ \ \ \ \ \ \ \ \ computerCard\=\ RANDOM.nextInt(\ max\ -\ min\ +\ 1\ )\ +\ min;\ //\ picks\ another\ random\ number,\ will\ stop\ after\ the\ removeCard\ \=\=\ true\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ computerCard;\r\n}
+numComments=3
