@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=player
+comment1.params=
+comment1.target=player()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ humanPlayer\r\n
+comment2.params=name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=int\ computerChoice()
+numComments=4
